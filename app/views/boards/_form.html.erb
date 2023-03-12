@@ -8,6 +8,8 @@
   </div>
 <% end %>
 
+<%= render 'shared/error_messages' %>
+
 <%= form_with model: board do |f| %>
   <div class="form-group">
     <%= f.label :name, "名前" %>
