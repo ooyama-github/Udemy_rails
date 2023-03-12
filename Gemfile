@@ -46,6 +46,7 @@ group :development do
   gem 'spring'
   gem 'pry-byebug'
   gem 'annotate'
+  gem 'rails-flog', require: 'flog'
 end
 
 group :test do
